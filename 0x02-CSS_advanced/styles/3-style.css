@@ -13,7 +13,10 @@ html {
   scroll-behavior: smooth;
 }
 
-body,
+body {
+  color: var(--text-color);
+}
+
 a {
   color: var(--text-color);
 }
@@ -22,7 +25,10 @@ a {
   display: none;
 }
 
-.card-category,
+.card-category {
+  color: var(--color-primary);
+}
+
 .section-tagline {
   color: var(--color-primary);
 }

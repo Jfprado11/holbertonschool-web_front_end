@@ -49,7 +49,10 @@ h6 {
   display: none;
 }
 
-.card-category,
+.card-category {
+  color: var(--color-primary);
+}
+
 .section-tagline {
   color: var(--color-primary);
 }

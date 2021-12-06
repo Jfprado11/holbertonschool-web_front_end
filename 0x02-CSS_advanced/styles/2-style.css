@@ -3,7 +3,10 @@ html {
   scroll-behavior: smooth;
 }
 
-body,
+body {
+  color: #161616;
+}
+
 a {
   color: #161616;
 }
@@ -12,7 +15,10 @@ a {
   display: none;
 }
 
-.card-category,
+.card-category {
+  color: #d73953;
+}
+
 .section-tagline {
   color: #d73953;
 }
