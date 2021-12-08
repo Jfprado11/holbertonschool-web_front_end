@@ -271,9 +271,9 @@ h6 {
   margin: var(--nav-item-margin);
 }
 
-.nav-link {
-  display: block;
-  padding: 0.5rem 1rem;
+.nav .nav-link {
+  /* display: block;
+  padding: 0.5rem 1rem; */
 }
 
 .nav .nav-link:hover {
