@@ -437,7 +437,7 @@ ul.row {
   height: 30rem;
   width: 100%;
   object-fit: cover;
-  /* vertical-align: bottom; */
+  vertical-align: bottom;
 }
 
 .card-work .card-inner {
@@ -455,7 +455,7 @@ ul.row {
 .card-work .card-title {
   text-align: center;
   margin: 0;
-  opacity: 0.01;
+  opacity: 0;
   height: 100%;
   position: relative;
 }
