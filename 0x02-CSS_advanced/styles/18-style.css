@@ -266,7 +266,7 @@ h6 {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
-  /* letter-spacing: var(--nav-item-letter-spacing); */
+  letter-spacing: var(--nav-item-letter-spacing);
   display: var(--nav-item-display);
   margin: var(--nav-item-margin);
 }
@@ -277,7 +277,7 @@ h6 {
 }
 
 .nav .nav-link:hover {
-  color: var(--nav-item-link-hover);
+  /* color: var(--nav-item-link-hover); */
 }
 
 .section-body {
