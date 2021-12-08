@@ -267,8 +267,8 @@ h6 {
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
   letter-spacing: var(--nav-item-letter-spacing);
-  display: var(--nav-item-display);
-  /* margin: var(--nav-item-margin); */
+  /* display: var(--nav-item-display); */
+  margin: var(--nav-item-margin);
 }
 
 .nav .nav-link {
