@@ -429,8 +429,8 @@ ul.row {
 }
 
 .card-work .card-outer {
-  position: relative;
-  overflow: hidden;
+  /* position: relative;
+  overflow: hidden; */
 }
 
 .card-work .card-image img {
@@ -476,7 +476,7 @@ ul.row {
 }
 
 .card-work:hover .card-title {
-  /* opacity: 1; */
+  opacity: 1;
 }
 
 .card-testimonial {
