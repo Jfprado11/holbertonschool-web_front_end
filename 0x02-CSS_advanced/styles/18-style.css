@@ -277,7 +277,7 @@ h6 {
 }
 
 .nav .nav-link:hover {
-  color: var(--nav-item-link-hover);
+  color: violet;
 }
 
 .section-body {
