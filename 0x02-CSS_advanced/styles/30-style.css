@@ -430,7 +430,7 @@ ul.row {
 
 .card-work .card-outer {
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .card-work .card-image img {
@@ -442,7 +442,7 @@ ul.row {
 
 .card-work .card-inner {
   position: absolute;
-  top: -0.01rem;
+  bottom: -0.01rem;
   left: -0.1rem;
   right: -0.1rem;
   z-index: 1;
