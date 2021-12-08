@@ -181,7 +181,9 @@ template {
   --footer-padding: 5rem 0 1rem;
 }
 
-* {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 

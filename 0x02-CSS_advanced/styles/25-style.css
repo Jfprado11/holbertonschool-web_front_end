@@ -198,7 +198,9 @@ template {
   --button-hover-background: var(--color-primary);
 }
 
-* {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
