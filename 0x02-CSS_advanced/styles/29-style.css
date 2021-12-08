@@ -352,6 +352,8 @@ h6 {
 .nav .nav-link::before {
   content: "";
   position: absolute;
+  bottom: 0;
+  left: 0;
   top: 0;
   left: 0;
   background-color: var(--color-white);
@@ -359,7 +361,7 @@ h6 {
   height: 20%;
 }
 
-.nav .nav-item:hover nav::before {
+.nav .nav-item:hover .nav-link::before {
   background-color: var(--color-primary);
   width: 100%;
 }
