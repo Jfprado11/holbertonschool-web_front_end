@@ -442,7 +442,7 @@ ul.row {
 
 .card-work .card-inner {
   position: absolute;
-  bottom: -0.01rem;
+  top: -0.1rem;
   left: -0.1rem;
   right: -0.1rem;
   z-index: 1;
