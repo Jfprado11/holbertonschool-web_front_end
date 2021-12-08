@@ -222,11 +222,10 @@ body {
   background: var(--color-black);
 }
 
-a {
+a:link {
   color: var(--text-color);
   text-decoration: none;
 }
-
 a:visited {
   font-style: italic;
 }
