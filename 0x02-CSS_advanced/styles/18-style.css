@@ -276,8 +276,8 @@ h6 {
   padding: 0.5rem 1rem;
 }
 
-.nav .nav-link:hover {
-  /* color: var(--nav-item-link-hover); */
+.nav-link:hover {
+  color: var(--nav-item-link-hover);
 }
 
 .section-body {
