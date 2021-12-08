@@ -268,12 +268,12 @@ h6 {
   font-size: var(--nav-item-font-size);
   letter-spacing: var(--nav-item-letter-spacing);
   display: var(--nav-item-display);
-  margin: var(--nav-item-margin);
+  /* margin: var(--nav-item-margin); */
 }
 
 .nav .nav-link {
   display: block;
-  /* padding: 0.5rem 1rem; */
+  padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
