@@ -437,7 +437,7 @@ ul.row {
   height: 30rem;
   width: 100%;
   object-fit: cover;
-  vertical-align: bottom;
+  /* vertical-align: bottom; */
 }
 
 .card-work .card-inner {
