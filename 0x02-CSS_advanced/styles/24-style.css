@@ -265,7 +265,7 @@ h6 {
   text-decoration: none;
 }
 
-section {
+.section {
   padding: var(--section-padding);
 }
 
