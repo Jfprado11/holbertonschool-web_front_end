@@ -1,0 +1,17 @@
+/* using two variables*/
+
+$color-one: #3d3d3d;
+$color-two: #6d6d6d;
+
+body {
+  color: $color-one;
+  background-color: $color-two;
+}
+
+p {
+  color: $color-one;
+}
+
+h2 {
+  background-color: $color-two;
+}
