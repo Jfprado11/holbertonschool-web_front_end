@@ -2,7 +2,10 @@
 
 $color_font: #3d3d3d;
 
-body,
+body {
+  color: $color_font;
+}
+
 p {
   color: $color_font;
 }
