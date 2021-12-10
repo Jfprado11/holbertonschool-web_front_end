@@ -1,0 +1,14 @@
+/* using the mixing funtion*/
+
+@mixin margin-left-right($value: 10px) {
+  margin-left: $value;
+  margin-right: $value;
+}
+
+body {
+  @include margin-left-right(10px);
+}
+
+div {
+  @include margin-left-right(15px);
+}
