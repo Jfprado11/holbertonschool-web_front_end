@@ -703,7 +703,7 @@ ul.row {
 }
 
 .hero-article .section-body {
-  position: relative;
+  /* position: relative;
   padding: 7rem, 0 0;
-  z-index: 2;
+  z-index: 2; */
 }
