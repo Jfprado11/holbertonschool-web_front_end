@@ -687,10 +687,10 @@ ul.row {
   background-position: 50% 0;
 }
 
-.hero-article::before {
+.hero-article {
   content: "";
   background: rgba(0, 0, 0, 0.8);
-  /* position: absolute; */
+  position: absolute;
   top: 0;
   right: 0;
   left: 0;
