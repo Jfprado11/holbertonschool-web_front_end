@@ -687,7 +687,7 @@ ul.row {
   background-position: 50% 0;
 }
 
-.hero-article {
+.hero-article::before {
   content: "";
   background: rgba(0, 0, 0, 0.8);
   position: absolute;
@@ -700,7 +700,7 @@ ul.row {
 
 .hero-article .section-inner {
   text-align: center;
-  align-items: center;
+  /* align-items: center; */
   min-height: 40vh;
 }
 
