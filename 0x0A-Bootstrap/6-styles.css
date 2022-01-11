@@ -1,0 +1,44 @@
+/* More styles for the bootstrap template */
+
+.btn-primary {
+  background-color: #e0003c;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: #bc1340;
+}
+
+.btn-outline-primary {
+  color: #e0003c;
+  border-color: #e0003c;
+}
+
+a,
+a:hover,
+a:focus {
+  color: #e0003c !important;
+}
+
+.card,
+.card-header,
+.card-footer {
+  border-color: #e0003c;
+  border-radius: 1rem;
+}
+
+.card-header {
+  background-color: #e0003c;
+  color: white;
+  border-top-left-radius: 1rem !important;
+  border-top-right-radius: 1rem !important;
+}
+
+.text-muted {
+  color: #8c8c8c;
+}
+
+body > .border-bottom {
+  border-bottom-color: #e0003c !important;
+}
