@@ -11,6 +11,6 @@ function createClassRoom(numbersOfStudents) {
   return students;
 }
 
-classRoom = (function () {
+let classRoom = (function () {
   return createClassRoom(10);
 })();
