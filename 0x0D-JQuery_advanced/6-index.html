@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Task 4</title>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <script type="application/javascript">
+      $(function () {
+        function createFamilyTree() {
+          const table = $("<table></table>")
+            .append(
+              $("<thead></thead>").append(
+                $("<tr></tr>")
+                  .append($("<th></th>").text("Firstname"))
+                  .append($("<th></th>").text("Lastname"))
+              )
+            )
+            .append($("<tbody></tbody>"));
+          $("body").append(table);
+        }
+        function addNewMember(firstName, lastName, position) {
+          const newRow = `
+            <tr>
+                <th>${firstName}</th>
+                <th>${lastName}</th>
+                <th>(x)</th>
+            </tr>
+            `;
+          if (position === "before") {
+            $("table tbody").prepend(newRow);
+          } else {
+            $("table tbody").append(newRow);
+          }
+          $("tbody tr th:last-of-type").click(function () {
+            $(this).parent().remove();
+          });
+          $("tbody tr th:last-of-type").css("background", "orange");
+        }
+        function createForm() {
+          $("table").before("<input type='text'/> <input type='text'/>");
+          $("table").before(`<select>
+              <option value='before'>Before</option>
+              <option value='after'>After</option>
+            </select>`);
+          $("table").before("<input type='submit' />");
+
+          $("input[type='submit']").click(function () {
+            const name = $("input[type='text']").first().val();
+            const lastN = $("input[type='text']:nth-of-type(2)").val();
+            const befoOrAfter = $("select").children("option:selected").val();
+            addNewMember(name, lastN, befoOrAfter);
+          });
+        }
+        $();
+        createFamilyTree();
+        createForm();
+      });
+    </script>
+  </body>
+</html>
