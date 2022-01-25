@@ -45,7 +45,8 @@
         const name = Cookies.get("firstname");
         const email = Cookies.get("email");
         if (
-          (name === "" || email === "") ||
+          name === "" ||
+          email === "" ||
           (name === undefined && email === undefined)
         ) {
           showForm();
@@ -71,10 +72,8 @@
       function setCookiesAndShowWelcomeMessage() {
         const valueOne = document.querySelector("input#firstname").value;
         const valueTwo = document.querySelector("input#email").value;
-        Cookies.set("firstname", valueOne);
-        Cookies.set("email", valueTwo);
-        console.log(valueTwo === "");
-        console.log(valueOne === "");
+        Cookies.set("firstname", valueOne, { expires: 10 });
+        Cookies.set("email", valueTwo, { expires: 10 });
         showWelcomeMessageOrForm();
       }
       showWelcomeMessageOrForm();
